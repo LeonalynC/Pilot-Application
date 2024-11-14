@@ -15,7 +15,7 @@
         <h2>First Name: <?php echo $getUserByID['first_name']; ?></h2>
         <h2>Last Name: <?php echo $getUserByID['last_name']; ?></h2>
         <h2>Email: <?php echo $getUserByID['email']; ?></h2>
-        <!-- Add more fields as necessary -->
+        
         <div class="deleteBtn" style="text-align: center;">
             <form action="core/handleForms.php?id=<?php echo $_GET['id']; ?>" method="POST">
                 <input type="submit" name="deletePilotBtn" value="Delete" style="background-color: #f69697; border-style: solid;">
